@@ -11,8 +11,8 @@ collections:
     folder: beverage
     create: true
     fields:
-      - { name: path, label: Path }
       - { name: title, label: Title }
+      - { name: image, label: Image, widget: image }
       - { name: desc, label: Desc, widget: markdown }
-      - { label: "Small Price", name: sprice, widget: number }
-      - { label: "Regular Price", name: rprice, widget: number }
+      - { label: "Small Price", name: sprice }
+      - { label: "Regular Price", name: rprice }
