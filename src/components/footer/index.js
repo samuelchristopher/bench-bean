@@ -3,7 +3,7 @@ import styles from "./footer.module.css"
 
 const Footer = () => (
     <footer className={styles.footer}>
-        CopyCopyright BenchBean. <br />All rights reserved.
+        Copyright BenchBean. <br />All rights reserved.
     </footer>
 )
 
