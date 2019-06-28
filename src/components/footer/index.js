@@ -1,7 +1,8 @@
 import React from "react"
+import styles from "./footer.module.css"
 
 const Footer = () => (
-    <footer>
+    <footer className={styles.footer}>
         CopyCopyright BenchBean. <br />All rights reserved.
     </footer>
 )
