@@ -15,4 +15,5 @@
     height: 48px;
     background: var(--purple);
     margin: 34px auto;
+    border-radius: 10px;
 }

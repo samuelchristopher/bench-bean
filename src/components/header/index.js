@@ -9,7 +9,8 @@ const Header = ({ imgUrl, text }) => (
             backgroundSize: `cover`,
             backgroundPosition: `center center`,
             marginTop: `27px`,
-            backgroundColor: `#532D6D`
+            backgroundColor: `#532D6D`,
+            borderRadius: `10px`
         }}/>
         <h1>{ text }</h1>
     </header>
