@@ -1,0 +1,26 @@
+@import 'base.css';
+@import url('https://fonts.googleapis.com/css?family=DM+Sans:400,700&display=swap');
+
+html {
+    font-family: 'DM Sans', sans-serif;
+    --purple: #532D6D;
+}
+
+.page {
+    max-width: 375px;
+    margin: 0 auto;
+}
+
+.active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.active::after {
+    height: 3px;
+    width: 24px;
+    content: " ";
+    background: var(--purple);
+    margin-top: 4px;
+}
