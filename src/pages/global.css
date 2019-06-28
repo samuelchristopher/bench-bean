@@ -8,6 +8,7 @@ html {
 
 .page {
     max-width: 375px;
+    width: 80vw;
     margin: 0 auto;
 }
 
